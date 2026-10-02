@@ -1,0 +1,27 @@
+# Binaries and build artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage artifacts
+*.out
+*.test
+
+# Logs and PID files
+*.log
+.cloudflared.pid
+
+# Environment and secrets
+.env
+.env.local
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+.gemini/
+scratch/
